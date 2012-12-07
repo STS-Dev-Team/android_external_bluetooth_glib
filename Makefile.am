@@ -129,7 +129,7 @@ files:
 
 release:
 	rm -rf .deps */.deps
-	cd docs && make glib.html
+	cd docs && $(MAKE) glib.html
 	$(MAKE) distcheck
 
 sanity:
